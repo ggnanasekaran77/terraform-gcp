@@ -21,5 +21,5 @@ module "cloud_run" {
 }
 
 output "url" {
-  value = "module.cloud_run.service_url"
+  value = module.cloud_run.service_url
 }
