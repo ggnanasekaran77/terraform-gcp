@@ -2,7 +2,7 @@ provider "google" {
   credentials = file("gcp-tf-course.json")
   project = "gcp-tf-course"
   region  = "asia-southeast1"
-  zone    = "asia-southeast1-a"
+  zone    = "asia-southeast1-c"
 }
 terraform {
   required_version = ">=1.0.11"
